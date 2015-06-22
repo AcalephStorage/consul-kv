@@ -82,7 +82,7 @@ func kvget(c *cli.Context) {
 		return
 	}
 
-	fmt.Printf("%s\n", pair.Key, string(pair.Value))
+	fmt.Printf("%s", string(pair.Value))
 }
 
 func kvset(c *cli.Context) {
